@@ -1,0 +1,64 @@
+/*  
+SELETOR {
+    PROPRIEDADE: VALOR;
+}
+*/
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #ffbe47;
+}
+
+.cor-vermelha{
+    color: red;
+}
+
+#header-pesquisa{ 
+    color: green;
+}
+/* placeholder é um pseudoelemento, e só existe com a tag input */
+#header-pesquisa::placeholder{
+    color: aqua
+}
+
+a{
+    text-decoration: none;
+}
+
+textarea{
+    resize: none;
+}
+
+.formulario-contato p, .formulario-contato h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    margin: 0;
+}
+.formulario-contato {
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 15px rgba(0, 0,240, 0.1);
+    
+}
+.negrito{
+    font-weight: bold;
+}
+.negrito:hover {
+    color: lawngreen;
+}
+
+img{
+    border-radius: 10px
+}
+
+img:hover{
+    opacity: 0.5;
+}
+
+button{
+    cursor: pointer;
+}
